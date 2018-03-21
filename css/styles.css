@@ -4,9 +4,11 @@ html, body {
 }
 
 body {
-	background-color: #ffffff;
+	background-image: url("./img/travel-flat.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
+	text-align: center;
 }
 
 #app {
@@ -65,40 +67,42 @@ button {
 }
 
 button:hover {
-  background-color: #FF7375;
-  border: none;
-  border-radius: 8px;
-  border-bottom: 4px solid #C24648;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: 'Oxygen', sans-serif;
-  letter-spacing: 2px;
+	background-color: #FF7375;
+	border: none;
+	border-radius: 8px;
+	border-bottom: 4px solid #C24648;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	letter-spacing: 2px;
 }
 
 button:active {
-  background-color: #C24648;
-  border: none;
-  border-radius: 8px;
-  border-bottom: 4px solid #C24648;
-  color: #CCC;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-family: 'Oxygen', sans-serif;
-  letter-spacing: 2px;
+	background-color: #C24648;
+	border: none;
+	border-radius: 8px;
+	border-bottom: 4px solid #C24648;
+	color: #CCC;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	letter-spacing: 2px;
 }
 
 #authorization {
+	background-color: #ffffff;
+
 	max-width: 600px;
 	width: 70%;
-	margin: 100px auto;
-	border: 1px solid black;
+	margin: 150px auto;
+	border: 3px solid black;
 }
 
 input {
